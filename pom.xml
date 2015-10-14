@@ -36,13 +36,13 @@
             <type>zip</type>
         </dependency>
 		<dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.identity</groupId>
             <artifactId>org.wso2.carbon.identity.application.mgt.ui.feature</artifactId>
             <version>${identity.core.version}</version>
             <type>zip</type>
         </dependency>
 		<dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.identity</groupId>
             <artifactId>org.wso2.carbon.idp.mgt.ui.feature</artifactId>
             <version>${identity.core.version}</version>
             <type>zip</type>
@@ -434,7 +434,7 @@
         <!-- baas begin -->
         
         <jaggery.version>0.11.0</jaggery.version>
-        <identity.core.version>4.2.7</identity.core.version>
+        <identity.core.version>4.3.0</identity.core.version>
         
         <!-- baas end -->
 

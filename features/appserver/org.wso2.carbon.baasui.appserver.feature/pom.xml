@@ -44,12 +44,13 @@
             <type>zip</type>
         </dependency>
 		<dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.identity</groupId>
             <artifactId>org.wso2.carbon.identity.application.mgt.ui.feature</artifactId>
+			<version>4.3.0</version>
             <type>zip</type>
         </dependency>
 		<dependency>
-            <groupId>org.wso2.carbon</groupId>
+            <groupId>org.wso2.carbon.identity</groupId>
             <artifactId>org.wso2.carbon.idp.mgt.ui.feature</artifactId>
             <type>zip</type>
         </dependency>
@@ -82,10 +83,10 @@
                                     org.jaggeryjs:org.jaggeryjs.ui.feature:${jaggery.version}
                                 </includedFeatureDef>
 								<includedFeatureDef>
-                                    org.wso2.carbon:org.wso2.carbon.identity.application.mgt.ui.feature:${identity.core.version}
+                                    org.wso2.carbon.identity:org.wso2.carbon.identity.application.mgt.ui.feature:${identity.core.version}
                                 </includedFeatureDef>
 								<includedFeatureDef>
-                                    org.wso2.carbon:org.wso2.carbon.idp.mgt.ui.feature:${identity.core.version}
+                                    org.wso2.carbon.identity:org.wso2.carbon.idp.mgt.ui.feature:${identity.core.version}
                                 </includedFeatureDef>
                             </includedFeatures>
                         </configuration>
