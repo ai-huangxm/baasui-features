@@ -43,6 +43,16 @@
             <artifactId>org.jaggeryjs.ui.feature</artifactId>
             <type>zip</type>
         </dependency>
+		<dependency>
+            <groupId>org.wso2.carbon</groupId>
+            <artifactId>org.wso2.carbon.identity.application.mgt.ui.feature</artifactId>
+            <type>zip</type>
+        </dependency>
+		<dependency>
+            <groupId>org.wso2.carbon</groupId>
+            <artifactId>org.wso2.carbon.idp.mgt.ui.feature</artifactId>
+            <type>zip</type>
+        </dependency>
     </dependencies>
 
     <build>
@@ -68,8 +78,14 @@
                                 <includedFeatureDef>
                                     org.wso2.carbon.deployment:org.wso2.carbon.webapp.mgt.ui.feature:${carbon.deployment.version}
                                 </includedFeatureDef>
-				<includedFeatureDef>
+                                <includedFeatureDef>
                                     org.jaggeryjs:org.jaggeryjs.ui.feature:${jaggery.version}
+                                </includedFeatureDef>
+								<includedFeatureDef>
+                                    org.wso2.carbon:org.wso2.carbon.identity.application.mgt.ui.feature:${identity.core.version}
+                                </includedFeatureDef>
+								<includedFeatureDef>
+                                    org.wso2.carbon:org.wso2.carbon.idp.mgt.ui.feature:${identity.core.version}
                                 </includedFeatureDef>
                             </includedFeatures>
                         </configuration>

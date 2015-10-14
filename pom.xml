@@ -20,24 +20,35 @@
 
     <dependencyManagement>
         <dependencies>
-			
-	<!-- baas begin -->
-			
-	    <dependency>
-                <groupId>org.wso2.carbon.deployment</groupId>
-                <artifactId>org.wso2.carbon.webapp.mgt.ui.feature</artifactId>
-                <version>${carbon.deployment.version}</version>
-                <type>zip</type>
-            </dependency>
-			
-	    <dependency>
-                <groupId>org.jaggeryjs</groupId>
-                <artifactId>org.jaggeryjs.ui.feature</artifactId>
-                <version>${jaggery.version}</version>
-                <type>zip</type>
-            </dependency>
-			
-	<!-- baas end -->
+        
+        <!-- baas begin -->
+        
+		<dependency>
+            <groupId>org.wso2.carbon.deployment</groupId>
+            <artifactId>org.wso2.carbon.webapp.mgt.ui.feature</artifactId>
+            <version>${carbon.deployment.version}</version>
+            <type>zip</type>
+        </dependency>
+		<dependency>
+            <groupId>org.jaggeryjs</groupId>
+            <artifactId>org.jaggeryjs.ui.feature</artifactId>
+            <version>${jaggery.version}</version>
+            <type>zip</type>
+        </dependency>
+		<dependency>
+            <groupId>org.wso2.carbon</groupId>
+            <artifactId>org.wso2.carbon.identity.application.mgt.ui.feature</artifactId>
+            <version>${identity.core.version}</version>
+            <type>zip</type>
+        </dependency>
+		<dependency>
+            <groupId>org.wso2.carbon</groupId>
+            <artifactId>org.wso2.carbon.idp.mgt.ui.feature</artifactId>
+            <version>${identity.core.version}</version>
+            <type>zip</type>
+        </dependency>
+		
+        <!-- baas end -->
 			
             <dependency>
                 <groupId>org.json.wso2</groupId>
@@ -420,12 +431,12 @@
 
     <properties>
 		
-		<!-- baas begin -->
-		
-		<jaggery.version>0.11.0</jaggery.version>
-                <identity.core.version>4.2.7</identity.core.version>
-		
-		<!-- baas end -->
+        <!-- baas begin -->
+        
+        <jaggery.version>0.11.0</jaggery.version>
+        <identity.core.version>4.2.7</identity.core.version>
+        
+        <!-- baas end -->
 
         <version.jettison>1.3.4</version.jettison>
 
